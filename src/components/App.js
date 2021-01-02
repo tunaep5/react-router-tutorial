@@ -1,8 +1,8 @@
-import React from "react";
-import { Route, Link } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Profile from "./Profile";
+import React from 'react';
+import { Route, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Profile from './Profile';
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
       </ul>
       <hr />
       <Route path="/" component={Home} exact={true} />
-      <Route path={["/about", "/info"]} component={About} />
+      <Route path={['/about', '/info']} component={About} />
       <Route path="/profile/:username" component={Profile} />
     </div>
   );

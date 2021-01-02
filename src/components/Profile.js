@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
 const data = {
   apple: {
-    name: "사과",
-    description: "나는야 빨간색 아삭아삭 사과",
+    name: '사과',
+    description: '나는야 빨간색 아삭아삭 사과',
   },
   orange: {
-    name: "오렌지",
-    description: "나는야 주황색 새콤달콤 오렌지",
+    name: '오렌지',
+    description: '나는야 주황색 새콤달콤 오렌지',
   },
 };
 
